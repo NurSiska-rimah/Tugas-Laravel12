@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* background lembut */
+  color: #333;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100%;
+  background-color: #FEE2AD; /* sidebar peachy */
+  padding: 20px;
+  border-right: 1px solid #FEE2AD;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.sidebar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 6px;
+  transition: 0.3s;
+  background-color: #FEE2AD; 
+}
+
+.sidebar a:hover {
+  background-color: #F08787;
+}
+
+/* Main Content */
+.main {
+  margin-left: 240px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #FEE2AD;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.header p {
+  margin-left: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(240, 135, 135, 0.2); /* soft pink shadow */
+  border-left: 5px solid #F08787;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #F08787;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ffc7a7;
+  border-radius: 6px;
+  background-color: #fffaf5;
+}
+
+/* Buttons */
+button {
+  background-color: #FEE2AD;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #F08787;
+}
+
+.delete-btn {
+  background-color: #FEE2AD;
+}
+
+.delete-btn:hover {
+  background-color: #F08787;
+}
